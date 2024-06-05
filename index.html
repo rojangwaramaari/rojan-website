@@ -1,46 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Rojan Shrestha - Professional Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-    <title>Rojan Shrestha - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 0.5rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            overflow: hidden;
+            padding: 2rem 0;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Rojan Shrestha</h1>
-        <p>Portfolio Website</p>
+        <p>Sankhu, Kathmandu</p>
     </header>
 
     <nav>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#home" onclick="showTab('home')">Home</a></li>
+            <li><a href="#work-experience" onclick="showTab('work-experience')">Work Experience</a></li>
+            <li><a href="#education" onclick="showTab('education')">Education</a></li>
+            <li><a href="#skills" onclick="showTab('skills')">Skills</a></li>
+            <li><a href="#contact" onclick="showTab('contact')">Contact</a></li>
+        </ul>
     </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Add your personal information here.</p>
-        <p>hello i am rojan Shrestha </p>
-    </section>
+    <div class="container">
+        <div id="home" class="tab-content active">
+            <h2>Welcome</h2>
+            <p>My name is Rojan Shrestha. I am committed to continuous learning and growth, and I look forward to connecting with professionals in the accounting and finance field to exchange ideas and explore potential opportunities for collaboration.</p>
+        </div>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Add your projects and work samples here.</p>
-    </section>
+        <div id="work-experience" class="tab-content">
+            <h2>Work Experience</h2>
+            <p><strong>e-Sewa Pvt. Ltd, Lalitpur</strong> (2023/05/28-2024/01/06)</p>
+            <p><strong>Financial Reporter, MIS, Kathmandu</strong> (2022/07/01-2023/04/26)</p>
+            <p><strong>Accountant, Tesla Diagnostic Clinic, Baluwatar</strong> (2020/08/11-2022/06/10)</p>
+            <p><strong>Trainee Computer Assistant, Rastriya Banijya Bank, Kathmandu</strong> (2019/08/25-2020/07/15)</p>
+            <p><strong>Computer and Network Technician, Sky Nepal, Thapathali</strong> (2017/07/16-2019/08/01)</p>
+            <p><strong>Assistant Accountant, Kacchapati Traders, Tinkune</strong> (2016/08/02-2017/02/03)</p>
+        </div>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Add your contact information and a contact form here.</p>
-    </section>
+        <div id="education" class="tab-content">
+            <h2>Education</h2>
+            <p>Bachelor of Business Studies (BBS), awaiting final exam results, Tribhuvan University</p>
+            <p>Higher Secondary Education (+2) in Computer Science from Evergreen Higher Secondary School (2015-2017)</p>
+            <p>School Leaving Certificate (SLC) from Sandipani Gyan Mandir School (SANGAM)(2015)</p>
+        </div>
+
+        <div id="skills" class="tab-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Maintain a comprehensive record of all fixed assets including laptops, computers, monitors, printers, and mobile devices.</li>
+                <li>Update the asset register with accurate information, including acquisition date, cost, location, and assigned user.</li>
+                <li>Document laptop repair and maintenance details, including dates of sending and receiving laptops for repairs.</li>
+                <li>Keep track of repair progress, update users on the status, and ensure timely return of repaired laptops.</li>
+                <li>Update and manage the stationary inventory list, recording all items in stock and monitoring usage.</li>
+                <li>Prepare financial statements and reports for department head.</li>
+                <li>Analyze financial data and provide insights to management.</li>
+                <li>Assist with budgeting and forecasting processes.</li>
+                <li>Managed accounts payable and accounts receivable functions.</li>
+                <li>Reconcile accounts payable and receivable.</li>
+                <li>Ensure timely bank payments.</li>
+                <li>Compute taxes and prepare tax returns.</li>
+                <li>Learned about various banking products and services.</li>
+                <li>Maintain log books or records for job runs.</li>
+                <li>Insert customer and account data by inputting text based and numerical information from source documents within time limits.</li>
+                <li>Compile, verify accuracy and sort information according to priorities to prepare source data for computer entry.</li>
+                <li>Nepali Typing.</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="tab-content">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> <a href="mailto:Rojan.gwaramaari@gmail.com">Rojan.gwaramaari@gmail.com</a></p>
+            <p><strong>Phone:</strong> 9843787201</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rojangwaramaari/" target="_blank">linkedin.com/in/rojangwaramaari</a></p>
+            <h2>Additional Information</h2>
+            <p>I possess a valid bike license and own a bike.</p>
+            <p>I also hold a four-wheel license.</p>
+            <h2>References</h2>
+            <p>Available upon request.</p>
+        </div>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Rojan Shrestha - Portfolio Website</p>
-        <p>&copy; Thank you so much</p>
+        <p>&copy; 2024 Rojan Shrestha. All rights reserved.</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <script>
+        function showTab(tabId) {
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            document.getElementById(tabId).classList.add('active');
+        }
+    </script>
 </body>
+
 </html>
