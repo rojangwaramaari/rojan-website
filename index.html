@@ -2,207 +2,230 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rojan Shrestha - Professional Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            /* Replace 'your-background-image.jpg' with the URL of your chosen background image */
-            background: url('"E:\New folder\Gwaramaari\img\IMG_9730.JPG"') no-repeat center center fixed;
-            background-size: cover;
-        }
-
-        header {
-            background: rgba(26, 115, 232, 0.8);
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        nav {
-            background: rgba(66, 133, 244, 0.8);
-            padding: 0.5rem 0;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 1rem;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-
-        nav ul li a:hover {
-            background-color: rgba(53, 122, 232, 0.8);
-        }
-
-        .container {
-            width: 80%;
-            margin: 2rem auto;
-            overflow: hidden;
-            padding: 2rem;
-            background: rgba(255, 255, 255, 0.9);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .tab-content {
-            display: none;
-        }
-
-        .tab-content.active {
-            display: block;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.5rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background: rgba(26, 115, 232, 0.8);
-            color: #fff;
-        }
-
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin-bottom: 0.5rem;
-        }
-
-        .contact-info p, .additional-info p, .references p {
-            margin-bottom: 0.5rem;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
 </head>
 
 <body>
-    <header>
-        <h1>Rojan Shrestha</h1>
-        <p>Sankhu, Kathmandu</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#home" onclick="showTab('home')">Home</a></li>
-            <li><a href="#work-experience" onclick="showTab('work-experience')">Work Experience</a></li>
-            <li><a href="#education" onclick="showTab('education')">Education</a></li>
-            <li><a href="#skills" onclick="showTab('skills')">Skills</a></li>
-            <li><a href="#contact" onclick="showTab('contact')">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <div id="home" class="tab-content active">
-            <h2>Welcome</h2>
-            <p>My name is Rojan Shrestha. I am committed to continuous learning and growth, and I look forward to connecting with professionals in the accounting and finance field to exchange ideas and explore potential opportunities for collaboration.</p>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>R</span>ojan <span>S</span>hrestha</h1>
+          </a>
         </div>
-
-        <div id="work-experience" class="tab-content">
-            <h2>Work Experience</h2>
-            <p><strong>e-Sewa Pvt. Ltd, Lalitpur</strong> (2023/05/28-2024/01/06)</p>
-            <p><strong>Financial Reporter, MIS, Kathmandu</strong> (2022/07/01-2023/04/26)</p>
-            <p><strong>Accountant, Tesla Diagnostic Clinic, Baluwatar</strong> (2020/08/11-2022/06/10)</p>
-            <p><strong>Trainee Computer Assistant, Rastriya Banijya Bank, Kathmandu</strong> (2019/08/25-2020/07/15)</p>
-            <p><strong>Computer and Network Technician, Sky Nepal, Thapathali</strong> (2017/07/16-2019/08/01)</p>
-            <p><strong>Assistant Accountant, Kacchapati Traders, Tinkune</strong> (2016/08/02-2017/02/03)</p>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#Education" data-after="Education">Education</a></li>
+            <li><a href="#Experience" data-after="Experience">Experience</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
         </div>
-
-        <div id="education" class="tab-content">
-            <h2>Education</h2>
-            <p>Bachelor of Business Studies (BBS), awaiting final exam results, Tribhuvan University</p>
-            <p>Higher Secondary Education (+2) in Computer Science from Evergreen Higher Secondary School (2015-2017)</p>
-            <p>School Leaving Certificate (SLC) from Sandipani Gyan Mandir School (SANGAM)(2015)</p>
-        </div>
-
-        <div id="skills" class="tab-content">
-            <h2>Skills</h2>
-            <ul>
-                <li>Maintain a comprehensive record of all fixed assets including laptops, computers, monitors, printers, and mobile devices.</li>
-                <li>Update the asset register with accurate information, including acquisition date, cost, location, and assigned user.</li>
-                <li>Document laptop repair and maintenance details, including dates of sending and receiving laptops for repairs.</li>
-                <li>Keep track of repair progress, update users on the status, and ensure timely return of repaired laptops.</li>
-                <li>Update and manage the stationary inventory list, recording all items in stock and monitoring usage.</li>
-                <li>Prepare financial statements and reports for department head.</li>
-                <li>Analyze financial data and provide insights to management.</li>
-                <li>Assist with budgeting and forecasting processes.</li>
-                <li>Managed accounts payable and accounts receivable functions.</li>
-                <li>Reconcile accounts payable and receivable.</li>
-                <li>Ensure timely bank payments.</li>
-                <li>Compute taxes and prepare tax returns.</li>
-                <li>Learned about various banking products and services.</li>
-                <li>Maintain log books or records for job runs.</li>
-                <li>Insert customer and account data by inputting text based and numerical information from source documents within time limits.</li>
-                <li>Compile, verify accuracy and sort information according to priorities to prepare source data for computer entry.</li>
-                <li>Nepali Typing.</li>
-            </ul>
-        </div>
-
-        <div id="contact" class="tab-content">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:Rojan.gwaramaari@gmail.com">Rojan.gwaramaari@gmail.com</a></p>
-                <p><strong>Phone:</strong> 9843787201</p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gwaramaari/" target="_blank">linkedin.com/in/gwaramaari</a></p>
-            </div>
-            <div class="additional-info">
-                <h2>Additional Information</h2>
-                <p>I possess a valid bike license and own a bike.</p>
-                <p>I also hold a four-wheel license.</p>
-            </div>
-            <div class="references">
-                <h2>References</h2>
-                <p>Available upon request.</p>
-            </div>
-        </div>
+      </div>
     </div>
+  </section>
+  <!-- End Header -->
 
-    <footer>
-        <p>&copy; 2024 Rojan Shrestha. All rights reserved.</p>
-    </footer>
 
-    <script>
-        function showTab(tabId) {
-            const tabs = document.querySelectorAll('.tab-content');
-            tabs.forEach(tab => tab.classList.remove('active'));
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Rojan Shrestha <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
-            document.getElementById(tabId).classList.add('active');
-        }
-    </script>
+  <!-- Education Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="education-top">
+        <h1 class="section-title">Educ<span>at</span>ion</h1>
+        <p><h2>Here are my Education </h2> </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>SLC</h2>
+          <p>School Leaving Certificate (SLC) from Sandipani Gyan Mandir School (SANGAM)(2015) </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>+2</h2>
+          <p>Higher Secondary Education (+2) in Computer Science from Evergreen HigherSecondary School (2015-
+            2017)</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>BBS</h2>
+          <p>Bachelor of Business Studies (BBS),From Sakwo Campus,sankhu (awaiting final exam results_) Tribhuvan University</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Currently Result waiting</h2>
+          <p>So currently i am waiting for BBS Result</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Experience Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span> Experience</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Holiday Inn Resort</h1>
+            <h2>Budanilkantha,Kathmandu</h2>
+            <p>Finance Officer -Account Receivable</p>
+            <p>Finance and Business Development Department</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/IHG.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>eSewa Pvt Ltd</h1>
+            <h2>Pulchok,Lalitpur</h2>
+            <p>Intern </p>
+            <p>AdministrationDepartment</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/esewa.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Management Information Services</h1>
+            <h2>Financial Reporter</h2>
+            <p>Internal audit</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Tesla Diagnostic Clinic</h1>
+            <h2>Baluwatar,Kathmandu</h2>
+            <p>Accountant</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Tesla.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Rastriya Banijya Bank</h1>
+            <h2>Singha Durbar,Kathmandu</h2>
+            <p>Computer Assistant Trainee</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/RBB.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/IMG_9730.JPG" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Finance Officer</h2>
+        <p>Hello Guys My name is rojan shrestha.</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+977-9843787201</h2>
+            <h2>+977-9818688397</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>Rojan.gwaramaari@gmail.com</h2>
+            <h2>www.srojan.com.np</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>sankhu,Kathmandu,Nepal           </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>R</span>ojan <span>S</span>hrestha</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Rojan Shrestha. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
 
 </html>
