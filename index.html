@@ -16,14 +16,14 @@
         }
 
         header {
-            background: #333;
+            background: #1a73e8;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
         }
 
         nav {
-            background: #444;
+            background: #4285f4;
             padding: 0.5rem 0;
         }
 
@@ -42,19 +42,23 @@
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
         }
 
         nav ul li a:hover {
-            text-decoration: underline;
+            background-color: #357ae8;
         }
 
         .container {
             width: 80%;
             margin: 2rem auto;
             overflow: hidden;
-            padding: 2rem 0;
+            padding: 2rem;
             background: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
         .tab-content {
@@ -77,12 +81,12 @@
         footer {
             text-align: center;
             padding: 1rem 0;
-            background: #333;
+            background: #1a73e8;
             color: #fff;
         }
 
         a {
-            color: #333;
+            color: #1a73e8;
             text-decoration: none;
         }
 
@@ -96,6 +100,10 @@
         }
 
         ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info p, .additional-info p, .references p {
             margin-bottom: 0.5rem;
         }
     </style>
@@ -165,14 +173,20 @@
 
         <div id="contact" class="tab-content">
             <h2>Contact</h2>
-            <p><strong>Email:</strong> <a href="mailto:Rojan.gwaramaari@gmail.com">Rojan.gwaramaari@gmail.com</a></p>
-            <p><strong>Phone:</strong> 9843787201</p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rojangwaramaari/" target="_blank">linkedin.com/in/rojangwaramaari</a></p>
-            <h2>Additional Information</h2>
-            <p>I possess a valid bike license and own a bike.</p>
-            <p>I also hold a four-wheel license.</p>
-            <h2>References</h2>
-            <p>Available upon request.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:Rojan.gwaramaari@gmail.com">Rojan.gwaramaari@gmail.com</a></p>
+                <p><strong>Phone:</strong> 9843787201</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rojangwaramaari/" target="_blank">linkedin.com/in/rojangwaramaari</a></p>
+            </div>
+            <div class="additional-info">
+                <h2>Additional Information</h2>
+                <p>I possess a valid bike license and own a bike.</p>
+                <p>I also hold a four-wheel license.</p>
+            </div>
+            <div class="references">
+                <h2>References</h2>
+                <p>Available upon request.</p>
+            </div>
         </div>
     </div>
 
