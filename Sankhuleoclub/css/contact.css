@@ -1,0 +1,61 @@
+/*
+Template Name:Social Welfare
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************contact****************/
+#contact{
+padding-top:40px;
+padding-bottom:40px;
+  }
+.contact_2 ul{
+margin-top:55px;  
+  }
+.contact_2 ul li{
+margin-top:10px;  
+  }
+.contact_2 ul li i{
+ margin-right:5px; 
+ color:#d43c18;
+  }
+.blog_d_page_li3{
+ margin-top:30px; 
+  }
+.blog_d_page_li3i .form-control{
+  height:50px;
+  margin-top:20px;
+  border-radius:0;
+  }
+.blog_d_page_li3i .form_1{
+height:150px; 
+ }
+.blog_d_page_li3{
+ background:#fafafa;
+ margin-left:auto;
+ margin-right:auto;
+ width:80%;
+ padding:30px 20px 40px 20px;
+  }
+/*********************contact_end****************/
+
+
+@media screen and (max-width : 767px){
+#contact{
+ text-align:center; 
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
