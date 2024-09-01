@@ -1,0 +1,110 @@
+/*
+Template Name:Social Welfare
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************about_page****************/
+#about_page{
+padding-top:40px;
+padding-bottom:40px;  
+  }
+
+#history{
+ background:#f4f4f4;
+ padding-top:40px;
+ padding-bottom:40px;
+ }
+.history_2l span i{
+width:70px;
+height:70px;
+line-height:65px;
+border:5px solid #ddd;
+border-radius:50%;
+text-align:center;
+color:#d43c18;
+font-size:26px;
+font-weight:bold;
+  }
+.history_2l span i:hover{
+background:#d43c18;
+color:#fff;  
+  }
+.history_1{
+margin-bottom:30px;  
+  }
+.history_2{
+margin-top:20px;  
+  }
+
+#team_page{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.team_p_1i ul li a {
+ background-color: #999;   
+}
+.team_p_1i{
+background:#fafafa;
+padding:0px 20px 40px 20px;  
+  }
+.team_p_1i hr{
+  border-width:4px;
+  border-color:#d43c18;
+  margin-top:0;
+  margin-bottom:40px;
+  width:40%;
+  }
+/*********************about_page_end****************/
+
+
+@media screen and (max-width : 767px){
+#about_page{
+ text-align:center; 
+  }
+.about_page_1r {
+ margin-top:15px;
+ }
+.about_page_1r  h5{
+ text-align:center; 
+ }
+#history{
+ text-align:center;
+  }
+.history_2l {
+margin-bottom:15px;
+margin-top:15px;  
+ }
+.history_2l h4{
+margin-top:15px!important; 
+ }
+.team_p_1i {
+margin-top:15px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.history_2l span i{
+ width:50px;
+ height:50px;
+ line-height:40px;
+ font-size:16px;
+ }
+.history_2l p{
+ font-size:14px;
+ }
+.history_2c img{
+min-height:200px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
+

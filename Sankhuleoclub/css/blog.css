@@ -1,0 +1,119 @@
+/*
+Template Name:Social Welfare
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************blog****************/
+#blog_page{
+  padding-top:40px;
+  padding-bottom:20px;
+  }
+.blog_p_1li p{
+ font-size:16px; 
+  }
+.blog_p_1li h6 a i{ 
+ margin-left:5px; 
+  }
+.blog_p_1lii {
+ padding:30px 15px; 
+ background:#fafafa;
+  }
+.blog_p_1li h6{
+ color:#999;
+ }
+.blog_p_1l{
+ margin-bottom:20px;
+ }
+.blog_p_1r{
+ background:#d43c18;
+ padding:30px 20px; 
+  }
+.blog_p_1r span{
+  display:block;
+  font-size:18px;
+  }
+.blog_p_1r h6 a:hover{
+ color:#eee;
+  }
+.blog_p_1r hr{
+border-width:3px;
+width:30%;
+border-color:#fff;
+  }
+.blog_p_1r h6 a i{ 
+ margin-left:5px; 
+  }
+.blog_p_1r_1{
+ margin-top:30px;
+ margin-bottom:30px;
+ background:#fafafa;
+ padding:30px 20px; 
+  }
+.blog_p_1r_1 hr{
+border-width:3px;
+width:30%;
+border-color:#d43c18;
+  }
+.blog_p_1r_1 span{
+  display:block;
+  font-size:18px;
+  }
+.blog_p_1r_1 .bor_t{
+ border-top:1px solid #ddd;
+ padding-top:15px;
+ margin-top:15px;
+ }
+.blog_p_1r .bor_t{
+ border-top:1px solid #e4441f;
+ padding-top:20px;
+ margin-top:15px;
+ }
+.blog_p_1li .bor_t{
+ border-top:1px solid #ddd;
+ padding-top:20px;
+ margin-top:15px;
+  }
+.blog_p_1r_1 h6{
+ color:#999;
+ }
+/*********************blog_end****************/
+
+
+@media screen and (max-width : 767px){
+#blog_page{
+ text-align:center; 
+  }
+.blog_p_1lii h5{
+text-align:left; 
+ }
+.blog_p_1li {
+margin-top:15px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.blog_p_1r .bor_t{
+ font-size:12px;
+ }
+.blog_p_1r_1 .bor_t{
+ font-size:12px; 
+ }
+.blog_p_1r_1 p{
+ font-size:12px; 
+ }
+.blog_p_1li .bor_t{
+ font-size:12px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
+

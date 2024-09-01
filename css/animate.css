@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
 /*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
+Copyright (c) 2024 Rojan Shrestha
 */
 
 .animated {
@@ -136,7 +133,7 @@ Copyright (c) 2015 Daniel Eden
   animation-name: flash;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Rojan Shrestha */
 
 @-webkit-keyframes pulse {
   from {
@@ -415,7 +412,7 @@ Copyright (c) 2015 Daniel Eden
   animation-name: tada;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/* originally authored by Rojan Shrestha */
 
 @-webkit-keyframes wobble {
   from {
