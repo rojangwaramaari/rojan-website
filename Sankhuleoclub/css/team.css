@@ -1,0 +1,84 @@
+/*
+Template Name:Social Welfare
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************team****************/
+#team{
+padding-top:40px;
+padding-bottom:20px;
+  }
+.team_1 ul li a {
+ background-color: #999;   
+}
+.team_1{
+background:#fafafa;
+padding:40px 15px;
+margin-top:30px; 
+margin-bottom:30px; 
+  }
+.team_p_1i ul li a {
+ background-color: #999;   
+}
+.team_p_1i{
+background:#fafafa;
+padding:0px 20px 40px 20px;  
+  }
+.team_p_1i hr{
+  border-width:4px;
+  border-color:#d43c18;
+  margin-top:0;
+  margin-bottom:40px;
+  width:40%;
+  }
+.team_2{
+ margin-top:30px; 
+  }
+.team_2 .progress{
+height:8px;
+border-radius:0;
+margin-top:10px; 
+  }
+#team_last{
+ background:#f4f4f4;
+ padding-top:40px;
+ padding-bottom:40px; 
+  }
+/*********************team_end****************/
+
+
+@media screen and (max-width : 767px){
+#team{
+ text-align:center;  
+   }
+.team_1 img{
+margin-bottom:15px; 
+ }
+.team_p_1i {
+margin-bottom:15px; 
+ }
+.team_2  h5{
+text-align:left; 
+ }
+.team_last_1i {
+ margin-top:15px;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+ul.social-network li{
+margin-bottom:5px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
+
