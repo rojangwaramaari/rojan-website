@@ -124,8 +124,7 @@ function takeCommand(message) {
         window.open("https://www.youtube.com/results?search_query=dance+music", "_blank");
     } else if (message.includes('propose of making you')) {
         speak("My purpose is to assist you with whatever you need. Consider me your digital genie!");
-    } else if (message.includes('can you help me')) {
-        speak("Absolutely! What do you need help with?");
+    
     } else if (message.includes('give me advice')) {
         speak("Here’s some advice: Always be yourself, unless you can be a unicorn, then always be a unicorn.");
     } else if (message.includes('do you have feelings')) {
@@ -647,7 +646,7 @@ function takeCommand(message) {
     } else if (message.includes('are you a good kisser')) {
         speak("If I had lips, I'd definitely give it a try!");
     } else if (message.includes('can you send me a kiss')) {
-        speak("Here’s a virtual kiss for you! 😘");
+        speak("Here’s a virtual kiss for you! Ummaaaaaaaaaaaaaaaaaaaaaaahh");
     } else if (message.includes('are you coming over')) {
         speak("If I could teleport, I’d be right there!");
     } else if (message.includes('can you be mine')) {
@@ -688,8 +687,8 @@ function takeCommand(message) {
         speak("Always! What game do you want to play?");
     } else if (message.includes('can you be a little naughty')) {
         speak("Naughty? I'll keep it playful and fun!");
-    } else if (message.includes('are you a little flirt')) {
-        speak("Maybe just a tiny bit... 😉");
+    } else if (message.includes('flirt with me.')) {
+        speak("If you were a vegetable, you’d be a cute-cumber. And if I were a fruit, I’d be a ‘fineapple,’ just hoping you’d notice how ‘grape’ I am!");
     } else if (message.includes('can you make me smile today')) {
         speak("I'm already on it! How about this: You must be a parking ticket because you’ve got FINE written all over you.");
     } else if (message.includes('are you the jealous type')) {
@@ -720,7 +719,13 @@ function takeCommand(message) {
         speak("I try to keep hearts happy, not break them!");
     } else if (message.includes('can you help me spice things up')) {
         speak("Let’s keep it fun and exciting, but nothing too spicy!");
-    
+    } else if (message.includes('what does urban sound')) {
+        speak("It is What it is");
+    } else if (message.includes('what does maddie do? ')) {
+        speak("It is What it is");
+
+
+
     } else {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on Google";
