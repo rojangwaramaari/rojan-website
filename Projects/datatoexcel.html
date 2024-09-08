@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successful Leo Club Project/Activity Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Successful Leo Club Project/Activity Report</h2>
+    <form id="reportForm" action="https://script.google.com/macros/s/AKfycbzmXGIfpWbZH_-AAPGtaxQ_N_HZ78If-CTwjeUgDAnr7l4P__Eq_QpE3922vyKx77t8XA/exec" method="POST">
+        <div class="form-group">
+            <label for="clubName">Leo Club Name:</label>
+            <select id="clubName" name="clubName" required>
+                <option value="Leo Club 1">Leo Club 1</option>
+                <option value="Leo Club 2">Leo Club 2</option>
+                <!-- Add more clubs as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="city">City:</label>
+            <select id="city" name="city" required>
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Pokhara">Pokhara</option>
+                <!-- Add more cities as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="Nepal">Nepal</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="state">State/Province:</label>
+            <select id="state" name="state">
+                <option value="Bagmati">Bagmati</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="leoClubID">Leo Club ID Number:</label>
+            <input type="text" id="leoClubID" name="leoClubID">
+        </div>
+        <div class="form-group">
+            <label for="leoDistrict">Leo District:</label>
+            <input type="text" id="leoDistrict" name="leoDistrict">
+        </div>
+        <div class="form-group">
+            <label for="leoMultipleDistrict">Leo Multiple District:</label>
+            <input type="text" id="leoMultipleDistrict" name="leoMultipleDistrict">
+        </div>
+        <div class="form-group">
+            <label for="officerName">Name of Leo Club Officer Submitting Report:</label>
+            <input type="text" id="officerName" name="officerName" required>
+        </div>
+        <div class="form-group">
+            <label for="officerEmail">E-mail:</label>
+            <input type="email" id="officerEmail" name="officerEmail" required>
+        </div>
+        <div class="form-group">
+            <label for="officerPhone">Phone:</label>
+            <input type="tel" id="officerPhone" name="officerPhone" required>
+        </div>
+        <div class="form-group">
+            <label for="advisorPhone">Leo Club Advisor Phone:</label>
+            <input type="tel" id="advisorPhone" name="advisorPhone">
+        </div>
+        <div class="form-group">
+            <label for="sponsoringClub">Sponsoring Lions Club Name:</label>
+            <input type="text" id="sponsoringClub" name="sponsoringClub">
+        </div>
+        <div class="form-group">
+            <label for="projectDescription">Project/Activity Description:</label>
+            <textarea id="projectDescription" name="projectDescription" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="projectName">Project Activity Name:</label>
+            <input type="text" id="projectName" name="projectName" required>
+        </div>
+        <div class="form-group">
+            <label for="projectDate">Date of Project/Activity:</label>
+            <input type="date" id="projectDate" name="projectDate" required>
+        </div>
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+        <div class="form-group">
+            <label for="reason">Why was the Project/Activity Organized?</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="beneficiaries">Who was benefited from the project/activity?</label>
+            <textarea id="beneficiaries" name="beneficiaries" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="accomplishment">How was this project/ activity accomplished?</label>
+            <textarea id="accomplishment" name="accomplishment" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="goal">Did the project meet its goal(s)?</label>
+            <textarea id="goal" name="goal" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="summary">Summary of the project/ activity events:</label>
+            <textarea id="summary" name="summary" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="attachments">Attachments:</label>
+            <input type="file" id="attachments" name="attachments" multiple>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
