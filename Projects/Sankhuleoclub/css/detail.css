@@ -1,0 +1,217 @@
+/*
+Template Name:Social Welfare
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************detail****************/
+#detail{
+  padding-top:40px;
+  padding-bottom:40px;
+  }
+.blog_p_1lii{
+ padding:30px 20px;
+ background:#fafafa; 
+  }
+.blog_p_1lii h6 a i{
+margin-left:5px;  
+  }
+.blog_p_1lii .bor_t {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+.detail_1l1 ul li{
+display:inline-block;
+color:#999; 
+ }
+.detail_1l1 ul li i{
+vertical-align:middle;
+ }
+.detail_1l1{
+border-top:1px solid #ddd; 
+border-bottom:1px solid #ddd; 
+margin-top:20px;
+padding-top:10px;
+padding-bottom:20px;
+ }
+.detail_1l2{
+margin-top:20px;  
+  }
+.detail_1l2 ul li{
+display:inline-block;
+margin-right:10px; 
+  }
+.detail_1l3{
+ margin-top:20px;
+ background:#fafafa;
+ padding:30px 20px; 
+  }
+.detail_1l4{
+ margin-top:20px;
+ margin-bottom:20px; 
+  }
+.event_h1r2 ul li{
+ display:inline-block;
+ margin-right:3px;
+  }
+.event_h1r2 ul .active a {
+   background: #eee;
+   border-top:3px solid #d43c18;
+}
+.event_h1r2 ul li a {
+    padding: 15px 30px;
+    display: block;
+	background:#fafafa;
+}
+.event_h1r2 ul li a:hover {
+   background: #fff;
+   border-top:3px solid #d43c18;
+}
+.home_i{
+ background:#fafafa;
+ padding:40px 20px;
+  }
+.blog_d_page_li3{
+ margin-top:20px; 
+  }
+.blog_d_page_li3i  .form-control{
+  margin-top:20px;
+  height:50px;
+  border-radius:0;
+  }
+.blog_d_page_li3i  .form_1{
+  height:150px;
+  }
+  
+.blog_p_1ri .btn{
+background:#d43c18;
+border-color:#d43c18;
+padding:14.2px 20px;
+border-radius:0;
+  }
+.blog_p_1ri1{
+ margin-top:30px;
+ border:1px solid #ddd;
+ padding:30px 15px 10px 15px;
+ background:#fff; 
+  }
+.blog_p_1ri1 h3{
+  margin-bottom:20px;
+  }
+.blog_p_1ri1 h5{
+border-bottom:1px solid #ddd;
+padding-bottom:15px;
+margin-bottom:15px;
+font-size:16px;
+  }
+
+.blog_p_1ri2{
+ margin-top:30px;
+ border:1px solid #ddd;
+ padding:30px 15px 10px 15px;
+ background:#fff; 
+  }
+.blog_p_1ri2 h3{
+  margin-bottom:20px;
+  }
+.blog_p_1ri2i{
+ padding-bottom:15px;
+ margin-bottom:15px;
+ border-bottom:1px solid #ddd; 
+  }
+
+.blog_p_1ri3{
+ margin-top:30px;
+ border:1px solid #ddd;
+ padding:30px 15px 40px 15px;
+ background:#fff; 
+  }
+.blog_p_1ri3 h3{
+  margin-bottom:20px;
+  }
+.blog_p_1ri3 h5 span{
+  background:#f4f4f4;
+  padding:10px 15px;
+  margin-right:10px;
+  display:inline-block;
+  border:3px solid #ddd;
+  }
+.blog_p_1ri3 h5 span:hover{
+background:#d43c18;
+color:#fff;  
+  }
+.blog_p_1ri3 ul li{
+ display:inline-block;
+ margin-top:10px;
+ margin-right:5px;
+  }
+.blog_p_1ri3 ul li a{
+ display:block;
+ border:1px solid #ddd;
+ padding:10px; 
+ border-radius:3px;
+  }
+.blog_p_1ri3 ul li a:hover{
+ border-color:#d43c18; 
+  }
+.blog_p_1ri .form-control {
+    height: 50px;
+    border-radius: 0;
+}
+/*********************detail_end****************/
+
+
+@media screen and (max-width : 767px){
+#detail{
+ text-align:center; 
+  }
+.blog_p_1lii h3{
+text-align:left; 
+ }
+.detail_1l1 ul .pull-right{
+ float:none!important; 
+  }
+.detail_1l3 h4 {
+margin-top:15px!important; 
+ }
+.event_h1r2 ul li{
+margin-bottom:8px; 
+ }
+.blog_p_1r {
+margin-top:20px; 
+ }
+.blog_p_1ri1  h5{
+text-align:left; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.detail_1l1 ul li{
+font-size:16px; 
+ }
+.blog_p_1ri1 h3{
+ font-size:26px;
+ }
+.blog_p_1ri3 h5 {
+ font-size:14px;
+ }
+.blog_p_1ri3 h5 span{
+padding:8px;
+margin-right:0;
+ }
+.blog_p_1ri3 h3{
+ font-size:26px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
+
