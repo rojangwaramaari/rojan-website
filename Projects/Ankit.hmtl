@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology by Rojan</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?galaxy,nebula') no-repeat center center/cover;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(90deg, #6a0572, #a03bdc);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .form-section {
+            background: rgba(39, 41, 61, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .form-section h3 {
+            margin-bottom: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, textarea, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1rem;
+        }
+        button {
+            background: linear-gradient(90deg, #ff8008, #ffc837);
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: linear-gradient(90deg, #ffc837, #ff8008);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(39, 41, 61, 0.8);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Astrology by Rojan</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Unlock the Secrets of Your Stars</h2>
+        <p>Your journey to clarity and wisdom begins here.</p>
+    </section>
+
+    <div class="container">
+        <section id="contact" class="form-section">
+            <h3>Share Your Problem</h3>
+            <form id="contactForm">
+                <select id="nameOption" required>
+                    <option value="">Choose an option</option>
+                    <option value="name">Enter Name</option>
+                    <option value="anonymous">Anonymous</option>
+                </select>
+                <input type="text" id="name" placeholder="Your Name" style="display:none;">
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Problem" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Astrology by Rojan | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        document.getElementById('nameOption').addEventListener('change', function() {
+            const nameField = document.getElementById('name');
+            if (this.value === 'name') {
+                nameField.style.display = 'block';
+                nameField.required = true;
+            } else {
+                nameField.style.display = 'none';
+                nameField.required = false;
+            }
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const nameOption = document.getElementById('nameOption').value;
+            const name = nameOption === 'name' ? document.getElementById('name').value : 'Anonymous';
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            fetch('https://formsubmit.co/shrestharojan4@gmail.com', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, email, message })
+            }).then(response => {
+                if (response.ok) {
+                    alert('Message sent successfully!');
+                    document.getElementById('contactForm').reset();
+                } else {
+                    alert('Failed to send message. Try again later.');
+                }
+            }).catch(error => {
+                alert('An error occurred.');
+                console.error(error);
+            });
+        });
+    </script>
+</body>
+</html>
